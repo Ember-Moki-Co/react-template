@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -44,5 +44,11 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.31.10"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "jest": {
+    "coveragePathIgnorePatterns": [
+        "./index.js",
+        "./reportWebVitals.js"
+    ]
+}
 }

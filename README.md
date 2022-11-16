@@ -5,3 +5,16 @@
   - ESLint
   - GitHub Actions
   - Folder Structure
+
+  ## Linting
+  ```
+  $ yarn eslint .
+  ```
+
+  ## Running tests and checking coverage
+  ```
+  $ yarn test
+  ```
+  ```
+  $ yarn test --coverage
+  ```
