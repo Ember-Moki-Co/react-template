@@ -21,4 +21,4 @@ jobs:
         run: yarn install
 
       - name: Run react tests
-        run: yarn test --coverage --watch
+        run: yarn workflowTest --coverage
